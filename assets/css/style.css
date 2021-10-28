@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+header {
+    padding-top: 1rem;
+}
+
+#logo {
+    margin-left: 16rem;
+}
+
+#menu {
+    font-size: 1.25rem;
+    display: inline-block;
+    position: absolute;
+    margin-left: 11rem;
+    margin-top: 1rem;
+}
+
+.a_header {
+    text-decoration-line: none;
+    color: white;
+    border-right: 0.1rem solid #555555;
+    padding: 0.8rem;
+}
+
+.no_barre {
+    border-right: none;
+    text-decoration-line: none;
+    padding: 0.8rem;
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+#search {
+    width: 12%;
+    background-color: #333333;
+    padding: 0.6rem;
+    color: #6f6e71;
+}
+
+#search_button {
+    width: 2%;
+    background-color: #333333;
+    padding: 0.6rem;
+    color: #6f6e71;
+}
+
+#back_menu {
+    font-size: 14px;
+    margin-left: 2rem;
+    display: inline-block;
+    border: 0.1rem solid #555555;
+    background-color: #555555;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.a_back {
+    text-decoration-line: none;
+    color: white;
+    border-right: 0.1rem solid #888888;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+
