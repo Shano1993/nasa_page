@@ -75,7 +75,9 @@ i {
     padding-right: 0.8rem;
 }
 
-section {
+/* Section One */
+
+#section_one {
     display: inline-block;
     border: 1px solid white;
     width: 100%;
@@ -204,6 +206,85 @@ hr {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+/* Section Two */
+
+#section_two {
+    display: inline-block;
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.left_right {
+    display: inline-block;
+    width: 20%;
+    border: 1px solid white;
+    height: 20rem;
+}
+
+#left_middle {
+    float: left;
+    margin-left: 17.5rem;
+    position: relative;
+}
+
+#middle {
+    display: inline-block;
+    border: 1px solid white;
+    width: 28%;
+    position: relative;
+    margin-left: 1.5rem;
+    height: 20rem;
+}
+
+#right_middle {
+    float: right;
+    margin-right: 17.5rem;
+    position: relative;
+}
+
+#footer_left_middle {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 0;
+}
+
+#middle_one {
+    display: inline-block;
+    width: 15%;
+    margin-top: 255px;
+    background-color: rgba(57, 113, 158, 0.53);
+    height: 10%;
+    font-size: 0.8rem;
+}
+
+#middle_two {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+}
+
+#middle_right_one {
+    display: inline-block;
+    width: 40%;
+    margin-top: 255px;
+    background-color: rgba(57, 113, 158, 0.53);
+    height: 10%;
+    font-size: 0.8rem;
+}
+
+#middle_right_two {
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+}
+
+
 
 
 
@@ -212,7 +293,7 @@ hr {
 h3 {
     font-size: 1.2rem;
     color: white;
-    margin-left: 5%;
+    text-align: center;
 }
 
 h3:hover {
