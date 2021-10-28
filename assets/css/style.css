@@ -78,15 +78,17 @@ i {
 section {
     display: inline-block;
     border: 1px solid white;
-    width: 70%;
-    margin-left: 18rem;
+    width: 74%;
+    margin-left: 17rem;
     margin-top: 1rem;
+    height: 42rem;
 }
 
 #satelite {
     width: 50%;
     border: 1px solid white;
     display: inline-block;
+    margin-top: 1rem;
 }
 
 #container {
