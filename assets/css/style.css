@@ -15,6 +15,25 @@ header {
     padding-top: 1rem;
 }
 
+h3 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+h3:hover {
+    background-color: #39719e;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-left: 1%;
+}
+
+h4:hover {
+    background-color: white;
+}
+
 #logo {
     margin-left: 16rem;
 }
@@ -79,14 +98,12 @@ i {
 
 #section_one {
     display: inline-block;
-    border: 1px solid white;
     width: 100%;
     margin-top: 1rem;
 }
 
 .bloc_two {
     display: inline-block;
-    border: 1px solid white;
     width: 35%;
 }
 
@@ -95,6 +112,7 @@ i {
     margin-left: 17.5rem;
     height: 40rem;
     position: relative;
+    background-color: darkslateblue;
 }
 
 #second {
@@ -105,7 +123,6 @@ i {
 
 #info {
     display: inline-block;
-    border: 1px solid white;
     float: left;
     width: 100%;
     height: 20rem;
@@ -113,16 +130,15 @@ i {
 
 #left {
     display: inline-block;
-    border: 1px solid white;
     float: left;
     width: 48%;
     height: 100%;
     position: relative;
+    background-color: darkslateblue;
 }
 
 #right {
     display: inline-block;
-    border: 1px solid white;
     float: right;
     width: 48%;
     height: 100%;
@@ -132,11 +148,11 @@ i {
 
 #back {
     display: inline-block;
-    border: 1px solid white;
+    background-color: darkslateblue;
     float: left;
     width: 100%;
     height: 20rem;
-    position: relative;
+    position: relative
 }
 
 p {
@@ -210,7 +226,6 @@ hr {
 
 #section_two {
     display: inline-block;
-    border: 1px solid white;
     width: 100%;
     margin-top: 1rem;
 }
@@ -218,7 +233,7 @@ hr {
 .left_right {
     display: inline-block;
     width: 20%;
-    border: 1px solid white;
+    background-color: darkslateblue;
     height: 20rem;
 }
 
@@ -230,7 +245,7 @@ hr {
 
 #middle {
     display: inline-block;
-    border: 1px solid white;
+    background-color: darkslateblue;
     width: 28%;
     position: relative;
     margin-left: 1.5rem;
@@ -264,6 +279,7 @@ hr {
     position: absolute;
     bottom: 0;
     height: 10%;
+    width: 100%;
 }
 
 #middle_right_one {
@@ -284,27 +300,158 @@ hr {
     height: 10%;
 }
 
+/* Section Three */
 
+#section_three {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1rem;
+}
 
+.back_bar {
+    display: inline-block;
+    height: 20rem;
+    background-color: darkslateblue;
+    width: 16%;
+}
 
+.back_bar_middle {
+    display: inline-block;
+    height: 20rem;
+    width: 18%;
+    padding-left: 1rem;
+    background-color: darkslateblue;
+}
 
+#img_one {
+    margin-left: 17.5rem;
+    float: left;
+    position: relative;
+}
 
+#img_two {
+    margin-left: 1rem;
+    position: relative;
+}
 
-h3 {
-    font-size: 1.2rem;
-    color: white;
+#img_three {
+    margin-left: 1rem;
+    position: absolute;
+}
+
+#img_four {
+    margin-right: 17.5rem;
+    float: right;
+    position: relative;
+}
+
+#back_bar_one {
+    display: inline-block;
+    width: 45%;
+    margin-top: 229px;
+    background-color: rgba(57, 113, 158, 0.53);
+    height: 10%;
+}
+
+#back_bar_two {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#back_middle_left {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: -15px;
+}
+
+#back_middle_one {
+    display: inline-block;
+    width: 45%;
+    margin-top: 229px;
+    background-color: rgba(57, 113, 158, 0.53);
+    height: 10%;
+    margin-left: -15px;
+}
+
+#back_middle_two {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: -15px;
+}
+
+#back_right {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+    height: 200px;
+}
+
+#div_footer {
+    display: inline-block;
+    width: 70.5%;
+    background-color: #15418c;
+    margin-left: 17.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#div_footer > p {
     text-align: center;
+    font-size: 1.3rem;
 }
 
-h3:hover {
-        background-color: #39719e;
+#div_footer:hover {
+    background-color: rgba(57, 113, 158, 0.53);
 }
 
-h4 {
-    font-size: 1.2rem;
-    margin-left: 1%;
+#bottom {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 17.5rem;
+    width: 20%;
 }
 
-h4:hover {
-    background-color: white;
+#p_logo {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+
 }
+
+#liste {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 48%;
+}
+
+li {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: #5d7fb9;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+
+
