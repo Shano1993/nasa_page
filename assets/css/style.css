@@ -43,20 +43,18 @@ header {
 
 i {
     color: white;
+    margin-left: 2%;
 }
 
 #search {
-    width: 12%;
+    width: 15%;
     background-color: #333333;
-    padding: 0.6rem;
+    padding: 0.7rem;
     color: #6f6e71;
+    border: none;
 }
-
-#search_button {
-    width: 2%;
-    background-color: #333333;
-    padding: 0.6rem;
-    color: #6f6e71;
+#search_barre {
+    position: absolute;
 }
 
 #back_menu {
@@ -77,26 +75,58 @@ i {
     padding-right: 0.8rem;
 }
 
-#section_one {
-    border: 1px solid white;
+section {
     display: inline-block;
-    width: 17%;
+    border: 1px solid white;
+    width: 70%;
+    margin-left: 18rem;
     margin-top: 1rem;
-    float: right;
-    margin-right: 18rem;
-    color: white;
 }
 
-#article {
+#satelite {
+    width: 50%;
     border: 1px solid white;
     display: inline-block;
+}
+
+#container {
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+}
+
+#bloc {
+    display: inline-block;
+}
+
+#info {
+    display: inline-block;
+    width: 52%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    background-color: #39719e;
+}
+
+hr {
     width: 95%;
-    margin-left: 0.5rem;
 }
 
 p {
     font-size: 14px;
 }
 
+.a_article {
+    text-decoration-line: none;
+    padding-left: 2rem;
+    font-size: 14px;
+    color: white;
+}
 
-
+#img_right {
+    display: inline-block;
+    border: 1px solid white;
+    width: 48%;
+}
